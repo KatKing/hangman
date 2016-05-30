@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="hangman.css">
+
+	<title>Hangman</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+   <h1>Hangman</h1>
+    <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
+    </div>
+    <div class="row">
+    <div id="buttons">
+    </div> 
+    </div>
+    <div class="row">
+    <p id="catagoryName"></p>
+    <div id="hold">
+        </div>
+    </div>
+    <div class='row'>
+        <div class="col-md-6">
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>  
+        </div>
+        <div class="col-md-6">
+     <canvas id="stickman"></canvas>
+        </div>
+    </div>
+    <div class="row">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+            </div>
+    </div>
+    </div>
+</div>   
+    </div>
+<p><small>Kathryn King GIT 417</small></p>
+    <script type="text/javascript" src="hangman.js"></script>
+</body>
+</html>
